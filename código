@@ -1,0 +1,14 @@
+compra = float(input('coloque o valor da sua compra: '))
+if compra>=500:
+    desconto = compra*0.25
+    valortotal = compra-desconto
+    print('o valor da sua compra',compra,'seu desconto é',desconto,'o valor total a pagar é de',valortotal)
+else:
+    if compra>=200:
+        desconto = compra*0.20
+        valortotal = compra-desconto
+        print('o valor da sua compra',compra,'seu desconto é',desconto,'o valor total a pagar é de',valortotal)
+    else:
+        desconto = compra*0.15
+        valortotal = compra-desconto
+        print('o valor da sua compra',compra,'seu desconto é',desconto,'0 valor total a pagar é de',valortotal)
